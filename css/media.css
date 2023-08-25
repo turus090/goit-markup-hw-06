@@ -1,0 +1,37 @@
+@media screen and (max-width:428px){ 
+    .header{
+        height: 70px;
+    }
+
+    .header_container {
+        width: 100%;
+        max-width: 400px;
+        justify-content: space-between;
+        height: 100%;
+        padding: 0; 
+    }   
+   
+    .btn_menu{
+        display: block;
+    }
+    .header_nav_list{
+        display: none;
+    }
+    .header_address{
+        display: none;
+    }
+
+    .hero {
+        max-width: 100%;
+        padding: 112px 0;
+    }
+
+    .hero_container{
+        width: 100%;
+    }
+
+    .hero-item {
+        width: 330px;
+        font-size: 36px;
+    }
+}
