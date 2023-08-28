@@ -1,5 +1,8 @@
 @media screen and (max-width: 428px) {
-  .header {
+  .container{
+    width: 100%;
+  }
+    .header {
     height: 70px;
   }
 
@@ -42,6 +45,7 @@
     display: none;
   }
   .advantage_list {
+    width: auto;
     margin-top: 96px;
     row-gap: 72px;
     flex-direction: column;
@@ -143,6 +147,150 @@
     width: 100vw;
   }
   .modal_wrapper {
-    top: 35%;
+    top: 45%;
   }
+
+  .nav_filter{
+    width: 292px;
+    flex-wrap: wrap;
+    gap: 16px 24px;
+    justify-content: flex-start;
+  }
+  .nav_filter-btn{
+    padding: 8px 16px;
+  }
+
+  .section_portfolio {
+    padding: 48px 0;
+}
+
+.portfolio_list{
+    flex-direction: column;
+}
+
+.portfolio_list_item{
+    width: auto;
+}
+
+.portfolio_list_item-image{
+    width: 100%;
+}
+}
+
+@media screen and (min-width: 429px) and (max-width: 768px) {
+  .header_container{
+    width: 100%;
+  }
+
+  .header_adress_list {
+    flex-direction: column;
+    gap: 12px;
+    padding: 16px 0;
+  }
+
+  .header_nav_list_item-link.current::after{
+    top: 77px;
+  }
+
+  .hero_container{
+    width: 100%;
+
+  }
+
+  .hero{
+    padding: 112px 0;
+  }
+ .advantage{
+  padding: 96px 0;
+ }
+  .advantage_container{
+    width: 100%;
+  }
+
+   .advantage_list {
+    flex-wrap: wrap;
+   }
+  .advantage_list_item-icon{
+    display: none;
+  }
+
+  .advantage_list_item-title{
+    font-size: 36px;
+  }
+
+  .advantage_list_item {
+    flex-basis: 356px;
+}
+
+.about{
+  display: none;
+
+}
+
+.team{
+  padding: 96px 0;
+}
+.team_container {
+  width: 100%;
+}
+.team_list{
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 64px 24px;
+}
+
+.customers{
+  padding: 96px 0;
+}
+
+.customers_wrapper{
+  width: 100%;
+}
+
+.customers_wrapper_list{
+  flex-wrap: wrap;  
+  justify-content: center;
+    gap: 72px 24px;
+}
+.customers_wrapper_list_item{
+width: calc((100% - 24px) / 4);
+}
+
+.footer{
+  padding: 96px 0;
+
+}
+
+.footer_container {
+  width: 100%;
+}
+.footer_container {
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 72px 24px;
+}
+.footer_wrapper{
+  margin: 0;
+}
+
+.footer_form{
+  width: 100%;
+    padding-left: 80px;
+}
+
+.section_container{
+  width: 100%;
+}
+
+.section_portfolio{
+  padding: 64px 0;
+}
+
+.nav_filter{
+  margin-bottom: 64px;
+}
+
+.portfolio_list_item {
+  width: calc((100% - 48px) / 2);
+}
 }
